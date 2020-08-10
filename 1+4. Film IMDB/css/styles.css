@@ -1,0 +1,76 @@
+body {
+    background-image: url(/images/cover.jpg);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardPrototype {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background-color: aliceblue;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.lineDiv {
+    display: flex;
+    /* width: 100%; */
+    margin: 10px 10px 10px 10px;
+}
+
+.keySTD {
+    color: blue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+table {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 220px;
+    height: 250px;
+}
+
+p {
+    word-wrap: normal;
+    margin-right: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#4D9C41), to(#19911D), color-stop(.6, #54DE5D))
+}
+
+.cardPrototype::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.cardPrototype::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.cardPrototype::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122, 153, 217)), color-stop(0.72, rgb(73, 125, 189)), color-stop(0.86, rgb(28, 58, 148)));
+}
